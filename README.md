@@ -1,5 +1,5 @@
 # browser-automation-analysis
-Custom Starter Project for npm projects
+Browser Automation Analysis for NodeJS Libraries 
 
 [![CircleCI][circle-ci-image]][circle-ci-url]
 [![License: MIT][license-image]][license-link]
