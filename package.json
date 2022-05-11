@@ -1,0 +1,31 @@
+{
+  "name": "browser-automation-analysis",
+  "version": "1.0.0",
+  "description": "Custom Starter Project for npm projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "npx eslint .",
+    "lint-fix": "npx eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvnp/browser-automation-analysis.git"
+  },
+  "author": "Jeevan Prakash Pant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jvnp/browser-automation-analysis/issues"
+  },
+  "homepage": "https://github.com/jvnp/browser-automation-analysis#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^28.1.0"
+  }
+}
