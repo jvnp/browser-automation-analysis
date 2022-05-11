@@ -6,8 +6,6 @@ async function getSiteData (url) {
     await page.goto(url)
     const html = await page.evaluate(() => document.body.outerHTML)
     browser.close()
-    
-    console.log(html)
 
     return {
         html
