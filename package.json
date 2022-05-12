@@ -29,6 +29,7 @@
     "jest": "^28.1.0"
   },
   "dependencies": {
+    "playwright": "^1.21.1",
     "puppeteer": "^14.0.0"
   }
 }
