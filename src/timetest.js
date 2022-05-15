@@ -1,5 +1,5 @@
-const puppeteer = require('./puppeteer')
-const playwright = require('./playwright')
+const puppeteer = require('./lib/puppeteer')
+const playwright = require('./lib/playwright')
 
 const config = require('../configs/app.json')
 
