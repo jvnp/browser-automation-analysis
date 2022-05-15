@@ -6,6 +6,7 @@ async function getSiteData (url) {
   })
 
   const page = await browser.newPage()
+  await page.goto(url);
   const html = await page.content()
 
   browser.close()
