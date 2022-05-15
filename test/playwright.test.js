@@ -1,4 +1,4 @@
-const playwright = require('../src/playwright')
+const playwright = require('../src/lib/playwright')
 
 test('html', async () => {
   const { html } = await playwright.getSiteData('https://bolster.ai')
