@@ -1,17 +1,15 @@
 const puppeteer = require('./lib/puppeteer')
 const playwright = require('./lib/playwright')
 
-const config = require('../configs/app.json')
-
-async function timeTestHtml () {
+async function timeTestHtml (url) {
   // puppeteer test
   const startPuppeteer = new Date()
-  await puppeteer.getSiteData(config.url)
+  await puppeteer.getSiteData(url)
   const stopPuppeteer = new Date()
 
   // playwright test
   const startPlaywright = new Date()
-  await playwright.getSiteData(config.url)
+  await playwright.getSiteData(url)
   const stopPlaywright = new Date()
 
   const puppeteerExecTime = (stopPuppeteer - startPuppeteer) / 1000
