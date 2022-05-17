@@ -16,19 +16,22 @@ Below command will run analysis and provide output on terminal
 ```sh
 npm start
 ```
-
-# testing
+OR
+```sh
+npm start https://bolster.ai
+```
+# Testing
 ```sh
 npm test
 ```
 
-# linting
+# Linting
 
 ```sh
 npm run lint
-
+```
 OR
-
+```sh
 npm run lint-fix # with lint fix
 ```
 
